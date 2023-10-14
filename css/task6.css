@@ -1,0 +1,551 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.clear{clear:both}
+
+.container .fixed{
+    text-align: center;
+    line-height: 25px;
+    font-size: 25px;
+    padding: 12px 17px;
+    position: fixed;
+    top:350px;
+    left:15px;
+    color: white;
+    background-color: #fa678e;
+    z-index: 300;
+    border-radius: 50%;
+}
+
+/* section 1 */
+
+.container .sec1{
+    width:100%;
+    height: 800px;
+    background-image: url("../images/2.jpg");
+    background-size: 100% 120%;
+    background-position: 50% 50%;
+    color: white;
+}
+
+.container .sec1 .ground{background-color: #41123f4f; height: 100%}
+
+.container .sec1 .content{
+    width: 80%;
+    padding: 256px 0 0 52.55px;
+    line-height: 55px;
+    margin: auto;
+}
+
+.container .sec1 .content h2{
+    font-size: 40px;
+    font-weight: 600;
+    width: 46%;
+}
+
+.container .sec1 .content button{
+    padding: 18px 15px 18px 26px;
+    border-radius: 30px;
+    font-size: 13px;
+    border: none;
+    margin: 45px 10px;
+    background-color: #8571ea;
+    color: white;
+    font-weight: bold;
+}
+
+.container .sec1 .content button span{
+    padding: 9px 12px;
+    background-color: #7664d1;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-left: 13px;
+}
+
+.container .sec1  .box{
+    margin: auto;
+    position: relative;
+    top: 151px;
+    width: fit-content;
+}
+
+.container .sec1  .box .card{
+    float: left;
+    margin: 21px;
+    background-color: white;
+    color: #151515;
+    padding: 28px 55px;
+    border-radius: 10px;
+    color: #151515;
+}
+
+.container .sec1  .box .card .text{float: right}
+
+.container .sec1  .box .card .text .tex1{
+    font-weight: 650;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.container .sec1  .box .card .text .tex2{
+    color: #00000069;
+    font-size: 15px;
+}
+
+.container .sec1  .box .card i{
+    padding: 3px 29px 0 0;
+    font-size: 31px;
+
+    color: #777373;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 2 */
+
+.container .sec2{width:100%; padding: 150px 150px 0 150px; margin: auto;background: linear-gradient(to bottom, #f7f8fd, rgba(214,218,236,1));}
+
+.container .sec2 .image{
+    float: left;
+    padding: 50px 40px 0 0;
+    width: 53%;
+    height: 100%;
+} 
+.container .sec2 .image img{width: 100%; height: 343px;}
+
+.container .sec2 .content p{
+    padding-bottom: 30px;
+    font-size: 12px;
+    color: #7664d1;
+    font-weight: 600;
+}
+
+.container .sec2 .content h2{
+    padding-bottom: 30px;
+    line-height: 39px;
+    font-size: 29px;
+    font-weight: 650;
+}
+
+.container .sec2 .content div{
+    line-height: 30px;
+    color: #7664d1;
+    padding-bottom: 30px;
+}
+
+.container .sec2 .content{ width: 47%; float: left;}
+
+.container .sec2 .content button{
+    padding: 18px 5px 18px 26px;
+    border-radius: 8px;
+    font-size: 13px;
+    border: none;
+    background-color: #8571ea;
+    color: white;
+    font-weight: bold;
+}
+
+.container .sec2 .content button span{
+    padding: 18px 12px;
+    background-color: #8571ea;
+    font-size: 12px;
+    margin-left: 13px;
+    border-left: 1px solid #0000003f
+}
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 3 */
+
+.container .sec3{width: 80%; margin: auto; padding: 100px 0}
+.container .sec3 p{
+    font-size: 11px;
+    color: #8571ea;
+    padding-bottom: 29px;
+    font-weight: 600
+}
+
+.container .sec3 h2{padding-bottom: 62px; font-size: 27px;color: #000000bf}
+
+.container .sec3 .box1{padding-bottom: 50px}
+
+.container .sec3 .box1 .text{float: left; width: calc(100% / 4)}
+
+.container .sec3 .box1 .text p{padding-bottom: 7px; font-size: 14.5px; color: black}
+
+.container .sec3 .box1 .text .last{color: #0000004a; font-size: 14px}
+
+.container .sec3 .box2 .text{
+    float: left;
+    width: calc(100% / 4);
+    border-top: 3px solid #8571ea;
+    padding: 50px 50px 0 0px;
+    position: relative;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.636)
+}
+
+.container .sec3 .box2 .text:nth-child(1)::before{
+    content: "01";
+    display: inline-block;
+    padding: 8px 13px;
+    background-color:#8571ea ;
+    border-radius: 50%;
+    position: absolute;
+    top:-20px;
+    left: -10px;
+    font-size: 15px;
+    color: white
+}
+.container .sec3 .box2 .text:nth-child(1)::before,
+.container .sec3 .box2 .text:nth-child(2)::before,
+.container .sec3 .box2 .text:nth-child(3)::before,
+.container .sec3 .box2 .text:nth-child(4)::before{
+    content: "01";
+    display: inline-block;
+    padding: 8px 13px;
+    background-color:#8571ea ;
+    border-radius: 50%;
+    position: absolute;
+    top:-20px;
+    left: -10px;
+    font-size: 15px;
+    color: white
+}
+.container .sec3 .box2 .text:nth-child(2)::before{content: "02"}
+.container .sec3 .box2 .text:nth-child(3)::before{content: "03"}
+.container .sec3 .box2 .text:nth-child(4)::before{content: "04"}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 4*/
+
+    .container .sec4{ 
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(315deg, #fb98ca, #8571ea);
+    padding: 45px
+    }
+
+
+    .container .sec4 .content{width: 70%; margin: auto}
+
+    .container .sec4 .content .text{float: left; text-align: left}
+
+    .container .sec4 .content .text p{color: white; font-size: 20px; padding: 8px}
+
+    .container .sec4 .content .text .last{font-size: 14px; color: #ffffff96; padding: 5px}
+
+    .container .sec4 .content button{
+        float: right;
+        padding: 18px 5px 18px 26px;
+        border-radius: 8px;
+        font-size: 13px;
+        border: none;
+        background-color: #8571ea;
+        color: white;
+        font-weight: bold
+    }
+    
+    .container .sec4 .content button span{
+        padding: 18px 12px;
+        background-color: #8571ea;
+        font-size: 12px;
+        margin-left: 13px;
+        border-left: 1px solid #00000025;
+        color: rgba(255, 255, 255, 0.452)
+    }
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 5 */
+
+.container .sec5{
+    width:100%;
+    height: 800px;
+    background-image: url("../images/4.jpg");
+    background-size: 100% 130%;
+    background-position: 50% 40%;
+    color: white;
+    position: relative
+    }
+
+    .container .sec5 .ground{
+        background: linear-gradient(to right, #66387930, rgba(0, 0, 0, 0.88));
+        padding: 20px 90px 50px 90px;
+        height: 100%
+    }
+
+    .container .sec5 .content{width: 44%; float: right; padding: 174px 100px 0 0}
+
+    .container .sec5 .content p{font-size: 11px; color: #ffffffba; padding-bottom: 15px}
+
+    .container .sec5 .content h2{font-size: 27px}
+    .container .sec5 .content .text{line-height: 28px; padding:35px 0 }
+    .container .sec5 .content .des1{padding-right: 20px}
+    .container .sec5 .content .des1 .title,
+    .container .sec5 .content .des2 .title{float: left; font-size: 12px; font-weight: 600}
+
+    .container .sec5 .content .des1 .persent,.container .sec5 .content .des2 .persent{float: right}
+
+    .container .sec5 .content .load1,.container .sec5 .content .load2{
+        background-color: #ffffff45;
+        width: 100%;
+        height: 12px;
+        border-radius: 38px;
+        margin: 4px 0 30px 0
+    }
+    .container .sec5 .content .load1 div, .container .sec5 .content .load2 div{
+        width: 95%;
+        height: 100%;
+        border-radius: 38px;
+        background-color: #8571ea
+    }
+    .container .sec5 .content .des2{padding-right: 85px}
+
+    .container .sec5 .content .load2 div{width: 80%}
+    .container .sec5 .content button{
+        padding: 18px 15px 18px 26px;
+        border-radius: 30px;
+        font-size: 13px;
+        border: none;
+        margin: 45px 10px;
+        background-color: #ffffffe0;
+        color: black;
+        font-weight: bold
+    }
+    .container .sec5 .content button span{
+        padding: 9px 12px;
+        background-color: #7664d1;
+        border-radius: 50%;
+        font-size: 12px;
+        margin-left: 13px;
+        color: #ffffffbd;
+        font-size: 13px
+    }
+
+    .custom-shape-divider-bottom-1690643060 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg)
+    }
+    
+    .custom-shape-divider-bottom-1690643060 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 115px
+    }
+    
+    .custom-shape-divider-bottom-1690643060 .shape-fill {fill: #FFFFFF}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 6 */
+
+.container .sec6{ 
+    width: 100%;
+    padding: 89px 90px 80px 90px;
+    background-color: white;
+    text-align: center;
+}
+
+.container .sec6 p{
+    font-size: 11px;
+    color: #8673ea;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding: 0 0 15px 0
+}
+.container .sec6 h2{font-size: 33px; font-weight: 500}
+
+.container .sec6 .content{padding: 70px 0px 0 0px}
+
+.container .sec6 .content .box{
+    float: left;
+    width: calc((100% / 4) - 36px);
+    margin: 18px 18px 50px 18px;
+    box-shadow: #00000029 0px 0px 15px 2px
+}
+.container .sec6 .content .box .ground{
+    background-image: url("../images/5.jpg");
+    background-size: 100% 100%;
+    height: 180px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px
+}
+.container .sec6 .content .box2 .ground{background-image: url("../images/6.jpg")}
+.container .sec6 .content .box3 .ground{background-image: url("../images/7.jpg")}
+.container .sec6 .content .box4 .ground{ background-image: url("../images/8.jpg")}
+
+.container .sec6 .content .box .ground div{
+    float: right;
+    color: white;
+    background-color: #0000007d;
+    padding: 9px 11px;
+    margin: 17px 13px 0 0px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.container .sec6 .content .box .text{ padding: 23px 24px 0 24px; text-align: left}
+.container .sec6 .content .box .text p{color: #00000069; padding-bottom: 8px}
+
+.container .sec6 .content .box .text h3{padding-bottom: 19px; font-size: 18px}
+
+.container .sec6 .content .box .text .details{padding: 5px 0 20px 0}
+
+.container .sec6 .content .box .text .details .image{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.container .sec6 .content .box .text .details .image img{width:100%; height:100%; border-radius: 50%}
+.container .sec6 .content .box .text .details .name{float: left; padding: 7px 0 0 0; font-size: 12px}
+.container .sec6 .content .box .text .details i{
+    font-size: 13px;
+    padding: 7px 0 0 10px;
+    float: right;
+    color: #00000054
+}
+.container .sec6 .content .box .text .details .comments, .container .sec6 .content .box .text .details .loves{
+    float: right;
+    padding: 5px 0 0 7px;
+    font-size: 16px;
+    color: #00000054;
+    font-weight: bold
+}
+.container .sec6  button{
+    padding: 18px 5px 18px 26px;
+    border-radius: 8px;
+    font-size: 13px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    box-shadow: #00000029 0px 0px 15px 2px
+}
+
+.container .sec6  button span{
+    padding: 18px 12px;
+    background-color: white;
+    font-size: 12px;
+    margin-left: 13px;
+    border-left: 1px solid #00000025;
+    color: rgba(0, 0, 0, 0.452)
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 7 */
+
+.container .sec7{ 
+    width: 100%;
+    padding: 74px 100px 34px 100px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(315deg, rgba(92,56,173,1), #8571ea)
+}
+.container .sec7  p{ 
+    font-size: 27px;
+    width: 49%;
+    margin: auto;
+    line-height: 49px
+}
+.container .sec7 button{
+    padding: 18px 15px 18px 26px;
+    border-radius: 30px;
+    font-size: 13px;
+    border: none;
+    margin: 45px 10px;
+    background-color: #fe73b2;
+    color: white;
+    font-weight: bold
+}
+.container .sec7 button span{
+    padding: 9px 12px;
+    background-color: #e567a1;
+    border-radius: 50%;
+    font-size: 12px;
+    margin-left: 13px;
+    color: #ffffffbd;
+    font-size: 13px
+}
+
+/*------------------------------------------------------------------------------------*/
+/* section 8 */
+
+.container .sec8{ 
+    width:100%;
+    padding: 90px  150px 50px 150px;
+    background-color: rgb(13 17 28);
+    color: white;
+    text-align: center
+}
+
+.container .sec8 .box{ float: left; text-align: left}
+.container .sec8 .box1,
+.container .sec8 .box2,
+.container .sec8 .box3{ width:calc(50% / 3)}
+.container .sec8 .box4{width: 50%; text-align: left; padding-left: 150px;
+}
+.container .sec8 .box h2{font-size: 17px; padding-bottom: 23px}
+
+.container .sec8 .box p{padding-bottom: 17px; font-size: 15px; color: #ffffff8a}
+
+.container .sec8 .box .form{
+    width: fit-content;
+    background-color: rgb(38 41 51);
+    padding: 0px 0 0 15px;
+    border-radius: 26px
+}
+.container .sec8 .box .form form input{
+    float: left;
+    width: 216px;
+    padding: 15px 0px 15px 13px;
+    background-color: rgb(38 41 51);
+    border: none;
+    color: #ffffff96;
+    font-size: 14px;
+    border-radius: 26px;
+    outline: none
+}
+.container .sec8 .box .form form button{
+    float: right;
+    padding: 15px 24px 15px 24px;
+    border-radius: 26px;
+    background-color: rgb(133 113 234);
+    color: white;
+    font-weight: 600
+}
+
+.container .sec8 .box .icns{ margin: 30px 0 0 0}
+.container .sec8 .box .icns i{
+    padding: 12px 13px;
+    background-color: #262933;
+    border-radius: 50%;
+    margin: 5px;
+    font-size: 15px
+}
+
+/*------------------------------------------------------------------------------------*/
+/* section 9 */
+
+.container .sec9{ 
+    width:100%;
+    padding: 0 0 20px 0;
+    background-color: rgb(13 17 28);
+    color: white;
+    text-align: center;
+    vertical-align: middle
+}
+
+.container .sec9 .line{ margin: 0 150px; padding-top: 20px ; border-top: 1px solid rgba(255, 255, 255, 0.189)}
+
+.container .sec9 .image{float: left; width: 6%}
+
+.container .sec9 .image img{width: 100%; height: 100%}
+
+.container .sec9 .content{float: right;padding: 25px 0 0 0; color: rgba(255, 255, 255, 0.495);}
